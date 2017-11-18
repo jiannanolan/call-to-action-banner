@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+se a combination of position and float to create the call to action banner.
+The button is .btn-big from the button assignment.
+Text can be found inside the content.txt file.
+Run it through Markbot and make sure it passes all the checks.
+Details
+
+Typefaces: Roboto, Roboto Condensed
+Text sizes: 3rem, 1.5rem
+Expected class names: .banner, .img-flex, .btn, .btn-big
+Banner maximum height: 500px
