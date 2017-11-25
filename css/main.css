@@ -6,17 +6,43 @@ html {
   box-sizing: inherit;
 }
 
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
+body {
+  margin: 0;
+}
 
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
 
-se a combination of position and float to create the call to action banner.
-The button is .btn-big from the button assignment.
-Text can be found inside the content.txt file.
-Run it through Markbot and make sure it passes all the checks.
-Details
+.img-flex {
+  display: block;
+  width: 100%;
+}
 
-Typefaces: Roboto, Roboto Condensed
-Text sizes: 3rem, 1.5rem
-Expected class names: .banner, .img-flex, .btn, .btn-big
-Banner maximum height: 500px
+.btn-bpadding {
+  display: inline-block;
+  border-radius: 8px;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: .4em;
+  padding-right: .4em;
+}
+
+.banner-content {
+  position: absolute;
+  max-width: 50em;
+  width: 100%;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn {
+  float: left;
+}
+
+.writings {
+  float: right;
+}
