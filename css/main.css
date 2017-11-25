@@ -21,13 +21,18 @@ body {
   width: 100%;
 }
 
-.btn-bpadding {
+.btn-big {
   display: inline-block;
   border-radius: 8px;
   padding-top: .4em;
   padding-bottom: .4em;
   padding-left: .4em;
   padding-right: .4em;
+}
+
+.btn {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
 }
 
 .banner-content {
@@ -39,7 +44,7 @@ body {
   transform: translateX(-50%);
 }
 
-.btn {
+.image {
   float: left;
 }
 
@@ -48,11 +53,15 @@ body {
 }
 
 .banner-content h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
 }
 
 .banner-content p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
+}
+
+.btn:hover {
+  color: #fff;
 }
